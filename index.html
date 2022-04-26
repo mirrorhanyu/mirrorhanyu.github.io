@@ -25,6 +25,13 @@
     });
     window.collectEvent('start')
 </script>
+<script>
+    function send() {
+      window.collectEvent('send_event', {
+       'event': 'hello',
+      })
+    }
+  </script>  
 </head>
 <body style="padding:0;margin:0">
   <div class="header" style="width:100%;height:72px;position:fixed;background-color:indianred">
